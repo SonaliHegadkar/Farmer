@@ -1,0 +1,368 @@
+/* Reset */
+
+  
+  /* Global Styles */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header */
+  header {
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    transition: color 0.3s;
+    margin-top: 6px; 
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  .nav-link:hover {
+    color: #ddd;
+  }
+ 
+    
+  
+  /* Hero Section */
+  .hero {
+    background-color: #f2f2f2;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-content button:hover {
+    background-color: #45a049;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Sections */
+  section {
+    width:100vw;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  /* Featured Products */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-card h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Testimonials */
+  .testimonial-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .testimonial-card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .quote-icon {
+    font-size: 24px;
+    color: #4CAF50;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .testimonial-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .customer-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .customer-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .customer-info h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .customer-info p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+  }
+  
+  /* Sustainable Practices */
+  
+  .practices-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    
+  }
+  
+  .practice-card {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .practice-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .practice-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .practice-card h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .practice-card p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Farm Location */
+  .map-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #4CAF50;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    
+  }
+  
+  /* Hero Image Carousel */
+  .hero-image {
+    position: relative;
+  }
+  
+  .hero-image-carousel {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .carousel-dot.active {
+    background-color: #4CAF50;
+  }
+  
+  /* Testimonial Carousel */
+  .testimonial-carousel {
+    position: relative;
+  }
+  
+  .testimonial-carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .sustainable-practices{
+    background: linear-gradient(180deg,#6bcaa2,white 60%);
+
+  }
+
+  .logout-button {
+    border: 2px solid white;
+    border-radius: 20px; /* Adjust the value as needed */
+    color: white;
+    background-color: transparent;
+    padding: 6px 12px; /* Adjust the padding to make the button smaller */
+    font-size: 14px; /* Adjust the font size to make the button smaller */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  
+  
+  
+
+  
+  /* ... (existing testimonial card styles) */

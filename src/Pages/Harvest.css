@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Mono');
+
+html, #abc, .btn1, .btn, input {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+#abc{
+  margin-bottom: 1em;
+}
+
+#mus, #mus3, th {
+  font-family: 'PT Mono', monospace;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+
+#app {
+  text-align: center;
+}
+
+.hea {
+  display: inline-block;
+  max-width: 750px;
+  margin: 1em;
+}
+
+ .btn {
+  display: inline-block;
+  border-radius: .25em;
+  padding: .25em;
+  text-decoration: none;
+  font-size: 14px;
+  margin: .25em .5em;
+}
+
+.btn1, .btn1:hover {
+  border: 1px solid #5599ff;
+  background-color: #5599ff;
+  color: white;
+}
+
+.btn {
+  border: 1px solid #5599ff;
+  background-color: white;
+  color: #5599ff;
+}
+
+#form-container {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1200px;
+}
+
+#instructions {
+  grid-column: 1 / span 1;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+#form {
+  grid-column: 2 / span 3;
+}
+
+@media (max-width: 800px) {
+  #instructions {
+    grid-column: 1 / span 4;
+    margin: 0 1em 1em 1em;
+  }
+  #form {
+    grid-column: 1 / span 4;
+  }
+}
+
+
+/*.logo {
+  display: inline-block;
+  text-align: center;
+  max-width: 100px;
+}*/
+
+.btn1 {
+  color: rgba(0, 0, 0, 0.35);
+  text-decoration: none;
+}
